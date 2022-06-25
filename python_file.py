@@ -11,7 +11,7 @@ df = pd.DataFrame()
 
 
 class Human:
-    def __init__():
+    def __init__(self):
         pass
 
 
@@ -23,6 +23,7 @@ human = Human()
 a = 4.05  # Gold lattice constant
 b = a / 2
 au_fcc = Atoms("Au", cell=[(0, b, b), (b, 0, b), (b, b, 0)], pbc=True)
+view(au_fcc)
 
 
 ########## Automatic code formatting with black ##########
