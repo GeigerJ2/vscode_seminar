@@ -23,7 +23,10 @@ human = Human()
 a = 4.05  # Gold lattice constant
 b = a / 2
 au_fcc = Atoms("Au", cell=[(0, b, b), (b, 0, b), (b, b, 0)], pbc=True)
-view(au_fcc)
+
+
+def show_structure(ase_object):
+    view(au_fcc)
 
 
 ########## Automatic code formatting with black ##########
