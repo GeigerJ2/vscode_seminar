@@ -6,10 +6,6 @@ from ase import Atoms
 from ase.visualize import view
 
 from ase.io.vasp_parsers.vasp_outcar_parsers import Cell
-# ? Why am I even importing this?
-# ! Because it is important.
-# TODO: But there are still other todos.
-
 
 df = pd.DataFrame()
 
