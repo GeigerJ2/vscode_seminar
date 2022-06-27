@@ -9,6 +9,9 @@ from ase.io.vasp_parsers.vasp_outcar_parsers import Cell
 
 df = pd.DataFrame()
 
+# TODO: I should code more.
+ugly_dict = {"a": 3, "b": 4, "c": 10}
+
 
 class Human:
     def __init__(self):
@@ -25,8 +28,9 @@ b = a / 2
 au_fcc = Atoms("Au", cell=[(0, b, b), (b, 0, b), (b, b, 0)], pbc=True)
 
 
-def show_structure(ase_object):
+def show_structure(ase_object: Atoms):
     view(au_fcc)
+    return None
 
 
 ########## Automatic code formatting with black ##########
