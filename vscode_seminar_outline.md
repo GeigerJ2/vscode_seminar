@@ -53,6 +53,10 @@
   - Run active file in active terminal
 
 - Other shortcuts:
+  - `F12` Go to definition
+    - `Alt + F12` Peek
+    - `Shift + F12` Go to references
+    - `Shift + Alt + F12` Find all references
   - `Ctrl + Up/Down arrow` Move view up and down, staying on current line
   - `Ctrl + d` Select word at current cursor position
     - Repeat keystroke to edit multiple occurences
