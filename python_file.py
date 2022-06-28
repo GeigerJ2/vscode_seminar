@@ -1,35 +1,26 @@
-import os
-
-import numpy as np
-import pandas as pd
+# import numpy as np
+# import pandas as pd
 from ase import Atoms
 from ase.visualize import view
 from ase import neb
 
 # ase vasp
+# ase view
 
 # from ase.io.vasp_parsers.vasp_outcar_parsers import Cell
-
 # TODO: I should code more.
-
-
-class Human:
-    def __init__(self):
-        pass
 
 
 # Python snippets
 
+# Class snippet for autodocstring
+
 # ASE example
 a = 4.05  # Gold lattice constant
 b = a / 2
+# Hover and all F12 options
 au_fcc = Atoms("Au", cell=[(0, b, b), (b, 0, b), (b, b, 0)], pbc=True)
 baseneb = neb.BaseNEB()
-
-
-def show_structure(ase_object: Atoms):
-    view(au_fcc)
-    return None
 
 
 ########## Automatic code formatting with black ##########

@@ -1,5 +1,5 @@
 #! /bin/bash
 
-for item in {"Hello World!",a,bc,1372}; do
-    echo "${item}"
+for ((i = 0; i < n; i++)); do
+    echo "${i}"
 done
